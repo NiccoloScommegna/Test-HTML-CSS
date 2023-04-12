@@ -1,0 +1,199 @@
+.top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    font-size: 11px;
+    color: white;
+    background-color: #163860;
+}
+
+.top-section-left {
+    display: flex;
+    flex: 1;
+    text-align: left;
+    margin-left: 12px;
+    color: white;
+    fill: white;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.top-section-left:hover {
+    opacity: 0.7;
+    color: #4196ff;
+    fill: #4196ff;
+}
+
+.svg-search-icon {
+    width: 12px;
+    padding-right: 4px;
+}
+
+.top-section-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 8;
+}
+
+.header-list-top-section {
+    list-style-type: none;
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+}
+
+.header-list-top-section li {
+    padding-inline: 7px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.header-list-top-section li:hover {
+    opacity: 0.7;
+    color: #4196ff;
+}
+
+.svg-down-arrow-icon {
+    width: 16px;
+    background-color: #163860;
+    fill: white;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.svg-down-arrow-icon:hover {
+    opacity: 0.7;
+    fill: #4196ff;
+}
+
+.top-section-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.bi-person-fill {
+    padding-right: 4px;
+}
+
+.top-section-right:hover {
+    opacity: 0.7;
+    color: #4196ff;
+}
+
+/* top-section conclusione */
+/* --------------------------------------------------------- */
+/* inzio middle-section */
+
+.middle-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.middle-section-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    color: #163860;
+}
+
+.middle-section-left img {
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+}
+
+.middle-section-left div {
+    padding-left: 8px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.middle-section-left:hover div {
+    opacity: 0.7;
+    color: #4196ff;
+}
+
+.middle-section-center {
+    display: flex;
+    justify-content: center;
+    padding-right: 45px;
+    cursor: pointer;
+}
+
+.middle-section-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #163860;
+    background-color: #ecb62f;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.middle-section-right:hover {
+    background: rgba(236, 182, 47, 0.8);
+}
+
+.abonnez-vous {
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.le-premier {
+    font-size: 11px;
+    font-weight: lighter;
+    padding-top: 2px;
+}
+
+/* middle-section conclusione */
+/* --------------------------------------------------------- */
+/* inzio bottom-section */
+
+.bottom-section {
+
+}
+
+.header-list-bottom-section {
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #163860;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    width: 100%;
+    padding: 0 0 8px;
+    margin: 0;
+    border-bottom: 4px solid #163860;
+}
+
+.header-list-bottom-section li {
+    margin-inline: 16px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.header-list-bottom-section li:hover {
+    opacity: 0.7;
+    color: #4196ff;
+}
