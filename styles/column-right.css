@@ -15,7 +15,7 @@
 
 .le-flash {
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.4;
     color: #da2824;
 }
@@ -26,11 +26,15 @@
     border-radius: 4px;
     cursor: pointer;
     display: flex;
-    padding: 8px 16px;
+    padding: 9px 22px 9px 18px;
     font-size: 14px;
     color: #163860;
     fill: #163860;
     transition: opacity 0.5s;
+}
+
+.actualité span {
+    padding-right: 24px;
 }
 
 .actualité:hover {
@@ -41,9 +45,17 @@
 
 .column-right-middle {
     color: #727272;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.4285714286;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+}
+
+.column-right-middle span {
+    padding-right: 6px
+}
+
+.column-right-middle svg {
+    cursor: pointer;
 }
