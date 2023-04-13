@@ -1,0 +1,38 @@
+.column-left {
+    border-right: 1px solid #ccc;
+    padding-right: 24px;
+    padding-left: 0;
+}
+
+.my-card {
+    border: none;
+    margin-bottom: 16px;
+}
+
+.my-card-body {
+    padding: 0;
+}
+
+.my-card-title {
+    font-size: 12px;
+    color: #4196ff;
+}
+
+.my-card-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #163860;
+    text-align: left;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.my-card-text:hover {
+    color: #4196ff;
+    opacity: 0.7;
+}
+
+.my-card-img {
+    margin-top: 16px;
+    cursor: pointer;
+}
