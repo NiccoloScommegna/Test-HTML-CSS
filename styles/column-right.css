@@ -42,8 +42,8 @@
 
 .actualité:hover {
     opacity: 0.7;
-    color: #4196ff;
-    fill: #4196ff;
+    color: #1f66ba;
+    fill: #1f66ba;
 }
 
 .column-right-middle {
@@ -91,7 +91,7 @@
 }
 
 .flash-title:hover {
-    color: #4196ff;
+    color: #1f66ba;
     opacity: 0.7;
 }
 
@@ -117,6 +117,6 @@
 
 .column-right-bottom:hover {
     opacity: 0.7;
-    color: #4196ff;
-    border-color: #4196ff;
+    color: #1f66ba;
+    border-color: #1f66ba;
 }

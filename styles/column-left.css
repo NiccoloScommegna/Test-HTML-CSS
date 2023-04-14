@@ -20,7 +20,7 @@
 
 .my-card-title {
     font-size: 12px;
-    color: #4196ff;
+    color: #1f66ba;
 }
 
 .my-card-text {
@@ -33,7 +33,7 @@
 }
 
 .my-card-text:hover {
-    color: #4196ff;
+    color: #1f66ba;
     opacity: 0.7;
 }
 

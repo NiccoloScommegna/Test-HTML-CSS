@@ -127,7 +127,7 @@
 
 .middle-section-left:hover div {
     opacity: 0.7;
-    color: #4196ff;
+    color: #1f66ba;
 }
 
 .middle-section-center {
@@ -196,5 +196,5 @@
 
 .header-list-bottom-section li:hover {
     opacity: 0.7;
-    color: #4196ff;
+    color: #1f66ba;
 }
