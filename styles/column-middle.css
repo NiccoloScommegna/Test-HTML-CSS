@@ -2,4 +2,42 @@
     display: flex;
     flex: 92;
     flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.main-news {
+    padding-bottom: 16px;
+}
+
+.title-main-news {
+    color: #163860;
+    font-size: 26px;
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.title-main-news:hover {
+    color: #4196ff;
+    opacity: 0.7;
+}
+
+.img-main-news {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.description-main-news {
+    color: #163860;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.time-main-news {
+    color: #727272;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-top: 8px;
 }
