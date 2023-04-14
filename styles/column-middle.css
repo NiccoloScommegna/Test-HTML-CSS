@@ -1,3 +1,5 @@
 .column-middle {
-
+    display: flex;
+    flex: 92;
+    flex-direction: column;
 }

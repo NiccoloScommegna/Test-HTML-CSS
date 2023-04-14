@@ -3,6 +3,9 @@
     padding-right: 0;
     margin-bottom: 24px;
     border-left: 1px solid #ccc;
+    display: flex;
+    flex: 39;
+    flex-direction: column;
 }
 
 .column-right-top {
@@ -14,7 +17,7 @@
 }
 
 .le-flash {
-    font-size: 1.25rem;
+    font-size: 18px;
     font-weight: 400;
     line-height: 1.4;
     color: #da2824;
@@ -45,7 +48,7 @@
 
 .column-right-middle {
     color: #727272;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.4285714286;
     display: flex;
     justify-content: end;
