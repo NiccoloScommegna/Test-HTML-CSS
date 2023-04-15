@@ -12,7 +12,8 @@
 
 .title-main-news {
     color: #163860;
-    font-size: 26px;
+    font-size: 24px;
+    font-weight: bold;
     margin-bottom: 0;
     cursor: pointer;
     transition: opacity 0.5s;
@@ -40,4 +41,50 @@
     font-size: 13px;
     margin-bottom: 0;
     padding-top: 8px;
+}
+
+
+/* --------------------------------------------------------- */
+
+.second-news {
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: 1px solid #ccc;
+}
+
+.text-second-news {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.title-second-news {
+    margin: 0;
+    color: #163860;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: opacity 0.5s;
+}
+
+.title-second-news:hover {
+    color: #1f66ba;
+    opacity: 0.7;
+}
+
+.description-second-news {
+    margin-top: 4px;
+    margin-bottom: 0;
+    color: #163860;
+    font-size: 14px;
+}
+
+.img-second-news {
+    display: flex;
+    max-width: 224px;
+    align-items: flex-start;
+    margin-left: 16px;
+    cursor: pointer;
 }
