@@ -190,9 +190,7 @@
     height: 20px;
     width: 100%;
     padding-left: 0;
-    /*padding: 0 0 8px;*/
     margin: 0;
-    /*border-bottom: 4px solid #163860;*/
 }
 
 .header-list-bottom-section li {
@@ -206,7 +204,76 @@
     color: #1f66ba;
 }
 
+/* fine bottom-section */
+/* --------------------------------------------------------- */
+/* inzio middle-section-small */
 
+.middle-section-small{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 58px;
+}
+
+.middle-section-small-left{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: #163860;
+    align-items: center;
+    font-size: 14px;
+}
+
+.middle-section-small-left span{
+    margin-right: 68px;
+}
+
+.container-middle-section-small-left{
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.container-middle-section-small-left:hover{
+    opacity: 0.7;
+    color: #1f66ba;
+}
+
+.middle-section-small-center{
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    margin-left: -9px;
+    margin-top: 4px;
+}
+
+.img-logo{
+    width: 195px;
+    height: auto;
+    cursor: pointer;
+}
+
+.middle-section-small-right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: #163860;
+    align-items: center;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: -12px;
+    margin-top: 4px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+
+}
+.middle-section-small-right:hover{
+    opacity: 0.7;
+    color: #1f66ba;
+}
+
+/* --------------------------------------------------------- */
 @media screen and (min-width: 1280px){
     .top-section{
         max-width: 1280px;
@@ -215,6 +282,9 @@
     .middle-section{
         max-width: 1280px;
         margin: auto;
+    }
+    .middle-section-small{
+        display: none;
     }
 }
 
@@ -227,5 +297,17 @@
     .middle-section{
         margin-left: 22px;
         margin-right: 22px;
+    }
+    .middle-section-small{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1023px){
+    .top-section-wrapper{
+        display: none;
+    }
+    .middle-section-wrapper{
+        display: none;
     }
 }
