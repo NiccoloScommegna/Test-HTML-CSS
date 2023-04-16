@@ -2,3 +2,17 @@ body {
     margin: 0;
     font-family: sourse sans pro, sans-serif;
 }
+
+.main-container-wrapper {
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0;
+}
+
+@media screen and (min-width: 1280px) {
+    .main-container-wrapper {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}
