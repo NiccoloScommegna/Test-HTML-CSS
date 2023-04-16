@@ -1,3 +1,7 @@
+.top-section-wrapper{
+    background-color: #163860;
+}
+
 .top-section {
     display: flex;
     flex-direction: row;
@@ -6,7 +10,6 @@
     height: 40px;
     font-size: 11px;
     color: white;
-    background-color: #163860;
 }
 
 .top-section-left {
@@ -95,6 +98,10 @@
 /* top-section conclusione */
 /* --------------------------------------------------------- */
 /* inzio middle-section */
+
+.middle-section-wrapper{
+    background-color: white;
+}
 
 .middle-section {
     display: flex;
@@ -200,9 +207,13 @@
 }
 
 
-@media screen and (min-width: 1280px) {
-    .header {
+@media screen and (min-width: 1280px){
+    .top-section{
         max-width: 1280px;
-        margin: 0 auto;
+        margin: auto;
+    }
+    .middle-section{
+        max-width: 1280px;
+        margin: auto;
     }
 }
