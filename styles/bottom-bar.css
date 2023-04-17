@@ -1,0 +1,49 @@
+.bottom-bar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 32px;
+    padding-left: 32px;
+    height: 51px;
+    font-size: 11px;
+    color: #163860;
+    font-weight: bold;
+    border-top: 1px solid #ccc;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.bottom-bar-left {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.bottom-bar-middle {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.bottom-bar-right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.bottom-bar-left-wrapper, .bottom-bar-middle-wrapper, .bottom-bar-right-wrapper {
+    cursor: pointer;
+    transition: opacity 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-bar-left-wrapper:hover, .bottom-bar-middle-wrapper:hover, .bottom-bar-right-wrapper:hover {
+    opacity: 0.7;
+    color: #1f66ba;
+}
