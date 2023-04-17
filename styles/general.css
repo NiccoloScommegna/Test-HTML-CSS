@@ -24,10 +24,28 @@ body {
         max-width: 1000px;
         margin: 0 auto;
     }
-    .column-right{
+
+    .column-right {
         min-width: 298px;
     }
-    .column-left{
+
+    .column-left {
         min-width: 216px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1023px) {
+    /*.main-container-wrapper {
+        padding-left: 32px;
+        padding-right: 32px;
+        max-width: 768px;
+        margin: auto;
+    }*/
+    .column-left {
+        display: none;
+    }
+
+    .column-right {
+        display: none;
     }
 }
