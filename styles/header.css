@@ -220,16 +220,11 @@
 .middle-section-small-left{
     display: flex;
     flex: 1;
-    /*justify-content: center;*/
     color: #163860;
     align-items: center;
     font-size: 14px;
     text-align: left;
     padding-left: 30px;
-}
-
-.middle-section-small-left span{
-    /*margin-right: 68px;*/
 }
 
 .container-middle-section-small-left{
@@ -312,5 +307,23 @@
 
     .middle-section-wrapper {
         display: none;
+    }
+
+    .bottom-section {
+        border-bottom: 2px solid #163860;
+        height: 38px;
+        padding-left: 20px;
+    }
+
+    .header-list-bottom-section {
+        justify-content: left;
+        font-size: 14px;
+    }
+
+    .header-list-bottom-section svg {
+        min-width: 12px;
+        min-height: 12px;
+        margin-bottom: 4px;
+        margin-left: 4px;
     }
 }
