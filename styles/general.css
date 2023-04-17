@@ -34,18 +34,15 @@ body {
     }
 }
 
-@media screen and (min-width: 576px) and (max-width: 1023px) {
-    /*.main-container-wrapper {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .main-container-wrapper {
         padding-left: 32px;
         padding-right: 32px;
         max-width: 768px;
         margin: auto;
-    }*/
-    .column-left {
-        display: none;
     }
 
-    .column-right {
+    #col-right {
         display: none;
     }
 }
