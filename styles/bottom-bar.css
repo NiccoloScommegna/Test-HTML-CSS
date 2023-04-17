@@ -26,6 +26,7 @@
     display: flex;
     flex: 1;
     justify-content: center;
+    color: #1f66ba;
 }
 
 .bottom-bar-right {

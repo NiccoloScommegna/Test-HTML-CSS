@@ -221,7 +221,6 @@
         height: auto;
     }
 
-
     .description-with-img-second-news {
         display: none;
     }
@@ -243,11 +242,6 @@
         display: none;
     }
 
-    /*.img-third-news{
-        max-width: 100%;
-        min-width: 404px;
-        height: auto;
-    }*/
     .img-third-news img {
         min-width: 404px;
         height: auto;
@@ -262,5 +256,15 @@
         padding-left: 0;
         max-width: 704px;
         margin-left: 12px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+    .column-left {
+        display: none;
+    }
+
+    .column-right {
+        display: none;
     }
 }
