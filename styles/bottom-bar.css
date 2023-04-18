@@ -49,7 +49,7 @@
     color: #1f66ba;
 }
 
-@media screen and (min-width: 500px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .bottom-bar {
         padding-left: 16px;
         padding-right: 16px;
