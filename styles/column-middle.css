@@ -308,11 +308,11 @@
 
     .img-third-news {
         margin: 0;
+        min-width: 100%;
     }
 
     .img-third-news img {
-        width: 100%;
-        height: auto;
+        min-width: 100%;
     }
 
     .bi-arrow-right {
