@@ -336,6 +336,11 @@
     .footer-right{
         padding-left: 16px;
     }
+
+    .footer-right-bottom svg{
+        margin-left: 4px;
+        margin-right: 4px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -364,6 +369,10 @@
         margin-bottom: 24px;
         padding-bottom: 24px;
         padding-right: 0;
+    }
+
+    .footer-left-list{
+        columns: 2;
     }
 
     .footer-middle-left {
